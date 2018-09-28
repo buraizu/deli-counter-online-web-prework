@@ -15,7 +15,7 @@ def line (array)
     puts "The line is currently empty."
   else
     array.each_with_index{|name, index|
-      line_phrase += "#{index + 1} #{name}"
+      line_phrase += "#{index + 1} #{name} "
     }
   end
   return line_phrase
