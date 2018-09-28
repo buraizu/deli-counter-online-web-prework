@@ -19,7 +19,7 @@ def line (array)
     }
   end
   line_phrase = line_phrase.chop
-  return line_phrase
+  puts line_phrase
 end 
 
 def now_serving(array)
