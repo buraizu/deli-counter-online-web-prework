@@ -2,7 +2,9 @@ katz_deli = []
 
 def take_a_number(line_array, name)
   line_array.push(name)
-  line_array.each_with_index
+  line_array.each_with_index{|name, index|
+    puts "#{name} "
+  }
 end 
 
 def line (array)
