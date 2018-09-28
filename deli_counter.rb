@@ -2,6 +2,7 @@ katz_deli = []
 
 def take_a_number(line_array, name)
  line_array << name
+ line_array.each do 
 end 
 
 def line (array)
