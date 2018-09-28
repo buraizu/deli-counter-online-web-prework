@@ -10,11 +10,15 @@ def take_a_number(line_array, name)
 end 
 
 def line (array)
+  line_phrase = "The line is currently: "
   if array.length == 0 
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{katz_deli}"
+    array.each_with_index{|name, index|
+      line_phrase += "#{index + 1} #{name}"
+    }
   end
+  return line_phrase
 end 
 
 def now_serving(array)
