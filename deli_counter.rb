@@ -18,6 +18,7 @@ def line (array)
       line_phrase += "#{index + 1}. #{name} "
     }
   end
+  line_phrase = line_phrase.chop
   return line_phrase
 end 
 
