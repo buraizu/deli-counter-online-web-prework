@@ -4,7 +4,7 @@ def take_a_number(line_array, name)
  line_array << name
  line_array.each_with_index{|person, index|
    if person == name
-     puts "Welcome, #{person}. You are number #{index} in line."
+     puts "Welcome, #{person}. You are number #{index + 1} in line."
    end
  }
 end 
